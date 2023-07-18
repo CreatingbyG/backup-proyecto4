@@ -1,0 +1,244 @@
+body {
+  background-color: #000;
+}
+
+.page {
+  max-width: 1280px;
+  height: 720px;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0px 199px;
+}
+
+.logo {
+  padding-top: 45px;
+}
+
+.line {
+  width: 100%;
+  padding-top: 42px;
+  color: #525252;
+  border-bottom: solid 1px;
+}
+
+.content {
+  margin: 0 199px;
+  padding-top: 36px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.avatar {
+  border-radius: 80px;
+  width: 120px;
+  height: 120px;
+}
+
+.profile__description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 20px;
+  justify-content: center;
+}
+
+.profile__description-name {
+  color: #fff;
+  margin: 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.profile__description-info {
+  color: #fff;
+  margin: 0px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.button{
+  display: flex;
+  gap: 180px;
+}
+.edit-button {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url(/images/Edit\ Button.svg);
+  background-color: #000;
+  margin: 30px 10px;
+  border: 2px;
+}
+
+.add-button {
+  background-repeat: no-repeat;
+  background-image: url(/images/Add\ Button\ \(1\).png);
+  width: 150px;
+  height: 50px;
+  background-color: #000;
+  margin: 30px auto;
+  border: 2px;
+  }
+
+
+  .popup{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 40%);
+    display: none;
+  }
+
+  .popup_opened{
+    display: block;
+  }
+
+  .popup__container{
+    position: absolute;
+    top: 25%;
+    right: 30%;
+    width: 430px;
+    height: 330px;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .popup__container-texts{
+    display: flex;
+    gap: 45px;
+    flex-direction: column;
+    border: none;
+  }
+
+  .popup__container-title{
+    margin: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    border: none;
+    padding-top: 22px;
+  }
+.popup__container-input{
+  border: none;
+  border-bottom: 1px solid;
+  color: #C4C4C4;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.popup__btn-closed{
+  cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: -20px;
+    background-color: #000;
+    border: none;
+}
+
+.popup__handlers{
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+  color: #fff;
+}
+
+.save__button{
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.elements{
+  padding-top: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.card{
+  width: 282px;
+  height: 361px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.first-card__photo{
+  background-image: url(/images/kirill-pershin-1088404-unsplash\ \(1\).jpg);
+  background-position: center;
+  width: 282px;
+  height: 282px;
+}
+
+.second-card__photo{
+  background-image: url(/images/kirill-pershin-1404681-unsplash\ \(1\).jpg);
+  background-position: center;
+  width: 282px;
+  height: 282px;
+}
+
+.third-card__photo{
+  background-image: url(/images/kirill-pershin-1556355-unsplash\ \(1\).jpg);
+  background-position: center;
+  width: 282px;
+  height: 282px;
+}
+
+.icons{
+  position: relative;
+}
+
+.delete{
+  position: absolute;
+  bottom: 245px;
+  left: 250px;
+  z-index: 0;
+}
+
+.like{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.image__text{
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+
+
